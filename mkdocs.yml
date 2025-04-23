@@ -1,0 +1,114 @@
+site_name: x8D
+site_author: 'Marco Vídero'
+site_url: https://x8d.github.io
+copyright: Copyright &copy; 2025 Marco Vídero
+
+theme:
+  language: pt-BR
+  name: material
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - toc.follow
+    - toc.integrate
+  icon:
+    logo: material/code-block-tags
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - abbreviations.md
+      base_path:
+        - includes
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: false
+      clickable_checkbox: true
+  - pymdownx.tilde
+  - tables
+  - toc:
+      permalink: "#"
+      toc_depth: 3
+
+extra:
+  status:
+    new: Novo
+    draft: Rascunho
+
+extra_css:
+  - assets/stylesheets/asciinema-player.css
+  - assets/stylesheets/brands.css
+  - assets/stylesheets/extra.css
+  - assets/stylesheets/tlp.css
+
+extra_javascript:
+  - assets/javascripts/asciinema-player.min.js
+
+plugins:
+  - search:
+      lang: pt
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - asciinema-player
+  - blog:
+      blog_toc: true
+      post_date_format: full
+  - kroki
+  - offline
+  - placeholder
+
+watch:
+  - includes
+  - placeholder-plugin.yaml

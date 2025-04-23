@@ -1,0 +1,4 @@
+mkdocs-material
+mkdocs-asciinema-player
+mkdocs-kroki-plugin
+mkdocs-placeholder-plugin

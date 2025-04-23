@@ -1,0 +1,14 @@
+settings:
+    auto_placeholder_tables: false
+
+placeholders:
+  INSTALL_K3S_CHANNEL: "stable"
+  INSTALL_K3S_EXEC: "server"
+  K3S_CLUSTER_INIT: "true"
+  INSTALL_K3S_SKIP_START: "true"
+  K3S_TOKEN: "Chs23h8ERXDpMfKpfDKTsQMcJLhbLxP3"
+  K3S_URL: "https://node1.lab:6443"
+  NODE1_IP: "10.5.132.7"
+  NODE2_IP: "10.5.132.8"
+  NODE3_IP: "10.5.132.9"
+  PACKAGES: "bash-completion cryptsetup iscsi-initiator-utils nfs-utils"

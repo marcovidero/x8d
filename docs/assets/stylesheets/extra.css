@@ -1,0 +1,150 @@
+:root {
+    --border: 0.05rem;
+    --border-radius: .2rem;
+}
+
+/* .md-grid { */
+/*     max-width: initial; */
+/* } */
+
+.md-typeset {
+    font-size: 0.7rem;
+}
+
+.md-typeset ul {
+    list-style-type: square;
+}
+
+.whatsapp {
+    color: #25D366;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+/*========*/
+/* BADGES */
+/*========*/
+
+/* bl = badge left */
+/* br = badge right */
+
+/* common */
+
+em.bl, em.br, strong.bl, strong.br {
+    border: var(--border) solid var(--md-primary-fg-color);
+    display: inline-block;
+    font-size: 0.64rem;
+    padding: .625em 1.2em;
+}
+
+em.bl, strong.bl {
+    background-color: var(--md-primary-fg-color);
+    border-bottom-left-radius: var(--border-radius);
+    border-top-left-radius: var(--border-radius);
+    color: white;
+}
+
+/* br = badge right */
+em.br, strong.br {
+    border-bottom-right-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    color: var(--md-primary-fg-color);
+}
+
+/*=========*/
+/* BUTTONS */
+/*=========*/
+
+/* bt = button */
+em.bt, strong.bt {
+    border: .05rem solid var(--md-primary-fg-color);
+    border-radius: .2rem;
+    color: var(--md-primary-fg-color);
+    display: inline-block;
+    font-size: 0.64rem;
+    padding: .625em 1.2em;
+    transition: background-color 125ms, color 125ms, text-shadow 125ms;
+}
+
+em.bt:hover, strong.bt:hover{
+/*  background-color: var(--md-primary-fg-color); */
+/*    color: black;
+    text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray; */
+    text-shadow: 3px 3px 5px var(--md-accent-fg-color--transparent);
+}
+
+/* pri = primary */
+em.pri, strong.pri {
+    background-color: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+}
+/*
+em.pri:hover, strong.pri:hover {
+    background-color: white;
+    color: var(--md-accent-fg-color);
+}
+*/
+
+/* FOUR COLUMN MODE
+.fourcolumns {
+    display:block;
+    column-count:4;
+    column-gap: 1em;
+ }
+ */
+
+/* Moodle */
+
+.m_cstab {
+    background-color: #f98012;
+}
+
+.m_csec {
+    background-color: #239cae;
+}
+
+.m_fsta {
+    background-color: #9cbd50;
+}
+
+.m_fsec {
+    background-color: #316d5e;
+    color: #fff;
+}
+
+.m_psta {
+    background-color: #686566;
+    color: #fff;
+}
+
+.m_psec {
+    background-color: #000;
+    color: #fff;
+}
+
+/*======*/
+/* TAGS */
+/*======*/
+
+code.capacitacao {
+    --md-typeset-a-color: #d19d00;
+    --md-primary-fg-color: #ffc105;
+    --md-primary-fg-color--light: #ffc929;
+    --md-primary-fg-color--dark: #ffa200;
+    --md-primary-bg-color: #000000de;
+    --md-primary-bg-color--light: #0000008a;
+}
+
+code.tag {
+    background-color: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}

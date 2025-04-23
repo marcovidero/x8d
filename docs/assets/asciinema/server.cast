@@ -1,0 +1,12 @@
+{"version": 2, "width": 190, "height": 45, "timestamp": 1727696433, "idle_time_limit": 2.0, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
+[1.00, "o", "root@node3:~ # "]
+[1.25, "o", "export RKE2_MAJOR=1     # RKE2 major version 1.x\r\n"]
+[1.50, "o", "root@node3:~ # "]
+[1.75, "o", "export RKE2_MINOR=30    #      minor version x.30\r\n"]
+[2.00, "o", "root@node3:~ # "]
+[2.25, "o", "export LINUX_MAJOR=9    # RHEL major version 9.x\r\n"]
+[2.50, "o", "root@node3:~ # "]
+[2.75, "o", "export RANCHER_YUM_REPO=\u0022https://rpm.rancher.io\u0022\r\n"]
+[3.00, "o", "                                                                                                   1         1         1\r\n"]
+[3.25, "o", "         1         2         3         4         5         6         7         8         9         0         1         2\r\n"]
+[3.50, "o", "123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890\r\n"]
