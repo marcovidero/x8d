@@ -1,0 +1,87 @@
+/* Brand
+https:// */
+
+[data-md-color-scheme=default] .brand {
+    color: black;
+}
+[data-md-color-scheme=slate] .brand {
+    color: white;
+}
+
+/* GitHub
+https://github.com/logos */
+
+[data-md-color-scheme=default] .github {
+    color: #24292f;
+}
+[data-md-color-scheme=slate] .github {
+    color: #fff;
+}
+
+/* k3s
+https://www.rancher.com/brand-guidelines */
+
+.k3s {
+    fill: currentcolor;
+    max-height: 100%;
+    width: 1.125em;
+}
+
+/* Kubernetes
+https:// */
+
+.k8s {
+    color: #326CE5;
+}
+
+/* Longhorn
+https://www.rancher.com/brand-guidelines */
+
+.longhorn {
+    fill: currentcolor;
+    max-height: 100%;
+    width: 1.125em;
+}
+
+/* Medium
+https://medium.design/logos-and-brand-guidelines-f1a01a733592 */
+
+[data-md-color-scheme=default] .medium {
+    color: black;
+}
+[data-md-color-scheme=slate] .medium {
+    color: white;
+}
+
+/* Red Hat */
+.redhat {
+    fill: currentcolor;
+    max-height: 100%;
+    width: 1.125em;
+}
+
+/* Rancher
+https://www.rancher.com/brand-guidelines */
+
+.rancher {
+    fill: #2453FF;
+    max-height: 100%;
+    width: 1.125em;
+}
+
+/* RKE */
+.rke {
+    fill: currentcolor;
+    max-height: 100%;
+    width: 1.125em;
+}
+
+/* Suse
+https://brand.suse.com/brand-system/color-palette */
+
+[data-md-color-scheme=default] .suse {
+    color: #0C322C;
+}
+[data-md-color-scheme=slate] .suse {
+    color: #30BA78;
+}

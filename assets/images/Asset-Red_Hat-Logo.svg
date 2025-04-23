@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="a9cc4e20-9abb-4bb2-995e-43140dd5eebf"
+   data-name="Layer 1"
+   viewBox="0 0 103.1057 78"
+   version="1.1"
+   sodipodi:docname="Asset-Red_Hat-Logo_page-General-This-RGB.svg"
+   width="103.1057"
+   height="78"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview249"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     showborder="false"
+     inkscape:zoom="4.3611111"
+     inkscape:cx="51.592357"
+     inkscape:cy="39.324841"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="a9cc4e20-9abb-4bb2-995e-43140dd5eebf" />
+  <defs
+     id="defs242">
+    <style
+       id="style240">.a259c8a2-a3d1-4199-8102-81eb076648c1{fill:#ed0000;}</style>
+  </defs>
+  <path
+     class="a259c8a2-a3d1-4199-8102-81eb076648c1"
+     d="m 86.40829,38.76643 c 0.93491,4.43706 0.93491,4.90414 0.93491,5.48784 0,7.59048 -8.52529,11.7936 -19.73345,11.7936 -25.3402,0 -47.52524,-14.82912 -47.52524,-24.63783 a 9.98179,9.98179 0 0 1 0.81726,-3.96992 C 11.79345,27.90721 0,29.54146 0,39.93388 0,56.9817 40.40231,78 72.39645,78 96.91824,78 103.1057,66.90774 103.1057,58.15007 c 0,-6.89037 -5.95454,-14.71226 -16.69741,-19.38364 m -17.63179,6.189 c 6.77354,0 16.581,-1.40179 16.581,-9.45854 A 7.659,7.659 0 0 0 85.18959,33.64314 L 81.15525,16.11378 C 80.2198,12.26053 79.40296,10.50856 72.63051,7.12206 67.3752,4.437 55.93249,0 52.54585,0 c -3.15266,0 -4.086,4.086 -7.82323,4.086 -3.61921,0 -6.30507,-3.03525 -9.69129,-3.03525 -3.26874,0 -5.3717,2.218 -7.0062,6.77245 0,0 -4.55443,12.8442 -5.13819,14.71145 a 3.386,3.386 0 0 0 -0.1203,1.05213 c 0,4.99188 19.65974,21.36859 46.00982,21.36859"
+     id="path244" />
+  <path
+     d="m 86.40829,38.76643 c 0.93491,4.43706 0.93491,4.90414 0.93491,5.48784 0,7.59048 -8.52529,11.7936 -19.73345,11.7936 -25.3402,0 -47.52524,-14.82912 -47.52524,-24.63783 a 9.98179,9.98179 0 0 1 0.81726,-3.96992 l 1.98521,-4.90543 a 3.386,3.386 0 0 0 -0.1203,1.05213 c 0,4.99188 19.65974,21.36859 46.00982,21.36859 6.77354,0 16.581,-1.40179 16.581,-9.45854 a 7.659,7.659 0 0 0 -0.16791,-1.85375 l 1.21875,5.12331 z"
+     id="path246" />
+</svg>

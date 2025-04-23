@@ -1,0 +1,39 @@
+strong.tlp-red {
+  background: #000;
+  color: #ff2b2b !important;
+  display: inline-block;
+  float: right;
+  font-size: 1.25em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+
+strong.tlp-amber {
+  background: #000;
+  color: #ffc000 !important;
+  display: inline-block;
+  float: right;
+  font-size: 1.25em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+
+strong.tlp-green {
+  background: #000;
+  color: #3f0 !important;
+  display: inline-block;
+  float: right;
+  font-size: 1.25em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+
+strong.tlp-clear {
+  background: #000;
+  color: #fff !important;
+  display: inline-block;
+  float: right;
+  font-size: 1.25em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}

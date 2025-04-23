@@ -1,0 +1,1 @@
+{"config":{"lang":["pt"],"separator":"[\\s\\-,:!=\\[\\]()\"/]+|(?!\\b)(?=[A-Z][a-z])|\\.(?!\\d)|&[lg]t;","pipeline":["stopWordFilter"]},"docs":[{"location":"index.html","title":"Home","text":"<p>Este site foi criado com o objetivo de armazenar diversos tutoriais e an\u00e1lises feitas pelo autor, Marco V\u00eddero.</p>"},{"location":"blog/index.html","title":"Blog","text":""}]}
